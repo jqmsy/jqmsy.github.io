@@ -1,0 +1,9 @@
+curl "https://api.cloudflare.com/client/v4/zones" \
+  --request POST \
+  --header "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+  --json '{
+    "name": "<YOUR_DOMAIN>",
+    "account": {
+        "id": "<YOUR_ACCOUNT_ID>"
+    }
+  }'
