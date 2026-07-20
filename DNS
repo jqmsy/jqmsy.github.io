@@ -2,8 +2,8 @@ curl "https://api.cloudflare.com/client/v4/zones" \
   --request POST \
   --header "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
   --json '{
-    "name": "<YOUR_DOMAIN>",
+    "name": "<heptasite.com>",
     "account": {
-        "id": "<YOUR_ACCOUNT_ID>"
+        "id": "<jqmsy>"
     }
   }'
